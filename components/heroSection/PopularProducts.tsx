@@ -26,7 +26,7 @@ const PopularProducts = () => {
             <ProductCard
               image="lamp"
               heading="The Lucy Lamp"
-              price="399"
+              price={399}
               id="2"
             />
           </SwiperSlide>
@@ -34,7 +34,7 @@ const PopularProducts = () => {
             <ProductCard
               image="Vase"
               heading="Rustic Vase Set"
-              price="155"
+              price={155}
               id="1"
             />
           </SwiperSlide>
@@ -42,7 +42,7 @@ const PopularProducts = () => {
             <ProductCard
               image="SilkVase"
               heading="The Silky Vase"
-              price="125"
+              price={125}
               id="3"
             />
           </SwiperSlide>
@@ -50,7 +50,7 @@ const PopularProducts = () => {
             <ProductCard
               image="BlackChair"
               heading="The Dandy Chair"
-              price="250"
+              price={250}
               id="4"
             />
           </SwiperSlide>
@@ -90,14 +90,14 @@ const PopularProducts = () => {
       <ProductCard
           image="BlackChair"
           heading="The Dandy Chair"
-          price="250"
+          price={250}
           id="4"
         />
       </div>
         <ProductCard
           image="oldChair"
           heading="The Dandy Chair"
-          price="250"
+          price={250}
           id="9"
         />
       </div>
