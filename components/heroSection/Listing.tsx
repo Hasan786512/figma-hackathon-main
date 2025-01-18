@@ -10,16 +10,16 @@ const Listing = () => {
         <ProductCard
           image="Vase"
           heading="Rustic Vase Set"
-          price="155"
+          price={155}
           id="1"
         />
 
-        <ProductCard image="lamp" heading="The Lucy Lamp" price="399" id="2" />
+        <ProductCard image="lamp" heading="The Lucy Lamp" price={399} id="2" />
 
         <ProductCard
           image="SilkVase"
           heading="The Silky Vase"
-          price="125"
+          price={125}
           id="3"
         />
 
@@ -27,7 +27,7 @@ const Listing = () => {
        <ProductCard
           image="BlackChair"
           heading="The Dandy chair"
-          price="250"
+          price={250}
           id="4"
         />
        </div>
